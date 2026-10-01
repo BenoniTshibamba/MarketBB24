@@ -1,10 +1,10 @@
-# 🛍️ BB24Market
+#  BB24Market
 
 **A friendly marketplace where anyone can buy and sell — like Amazon, but warmer.**
 
 Shop unique finds from independent sellers and trusted companies, or open your own shop in minutes. Built with **Python (FastAPI)** + **React (Vite)**.
 
-## ✨ Features
+##  Features
 
 **For buyers**
 - Browse, search, filter by category, and sort products
@@ -18,7 +18,7 @@ Shop unique finds from independent sellers and trusted companies, or open your o
 - List / edit / delete products in seconds
 - Update order status (placed → shipped → delivered)
 
-## 🚀 Quick start
+##  Quick start
 
 ### Option 1 — one command (Mac/Linux)
 ```bash
@@ -44,9 +44,9 @@ npm install
 npm run dev
 ```
 
-Then open **http://localhost:5173** 🎉
+Then open **http://localhost:5173** 
 
-## 🔑 Demo accounts
+##  Demo accounts
 
 Password for all: **`demo123`**
 
@@ -75,7 +75,7 @@ With a key set, checkout redirects buyers to Stripe's secure hosted payment page
 
 > Currency is set to **CAD** in `backend/app.py` (`_stripe_session_for`). Change `currency: "cad"` to your own if needed.
 
-## 🗂️ Project structure
+##  Project structure
 
 ```
 bb24market/
@@ -98,7 +98,7 @@ bb24market/
 └── README.md
 ```
 
-## 🔌 API overview
+##  API overview
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -116,4 +116,4 @@ bb24market/
 
 Full interactive docs at **http://localhost:8000/docs** when the backend runs.
 
-Made with 💛 — happy selling!
+— happy selling!
